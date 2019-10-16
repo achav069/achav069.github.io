@@ -1,1 +1,110 @@
-Site Under Construction
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="src/vendors/bootstrap-4.3.1-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="src/css/site.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar fixed-top">
+      <ul class="nav mr-auto navigation">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container-fluid body-content">
+      <div class="row" id="about">
+        <div class="col-md-4 offset-md-4">
+          <img
+            src="src/images/profilepic.png"
+            class="img-fluid rounded-circle"
+          />
+        </div>
+        <div class="col-md-4 offset-md-4" id="aboutText">
+          <p>Hi! My name is <span id="name">Andres Chavez</span>.</p>
+          <p>
+            I'm a software developer interested in backend, virtual reality, and
+            any complex challenges I can get my hands on.
+          </p>
+        </div>
+      </div>
+
+      <div class="row" id="experience">
+        <div class="col-12"><h2 class="text-center">Skills</h2></div>
+        <div class="col-md-3 exp">
+          <a data-toggle="collapse" href="#jpmc">
+            <img src="src/images/jpmcLogo.png" class="img-responsive" />
+          </a>
+          <p class="collapse experienceText" id="jpmc">
+            Over the summer I interned at J.P Morgan &amp; Chase and had the
+            opportunity to modernize a legacy backend application using the
+            Spring Boot Java Framewok.
+          </p>
+        </div>
+        <div class="col-md-3 exp">
+          <a data-toggle="collapse" href="#farelogix">
+            <img src="src/images/farelogixLogo.png" class="img-responsive" />
+          </a>
+          <p class="collapse experienceText" id="farelogix">
+            At Farelogix I worked on an airline merchanising engine using C++
+            while working with various airline clients.
+          </p>
+        </div>
+        <div class="col-md-3 exp">
+          <a data-toggle="collapse" href="#sparkdev">
+            <img src="src/images/sparkdevLogo.png" class="img-responsive" />
+          </a>
+          <p class="collapse experienceText" id="sparkdev">
+            The last two semesters at FIU I have participated in UPE's SparkDev
+            Program allowing me to participate as a lead and member for the
+            video game and virtual reality development teams.
+          </p>
+        </div>
+      </div>
+
+      <div class="row" id="skills">
+        <div class="col-12"><h2 class="text-center">Skills</h2></div>
+        <div class="col-md-2">
+          <img src="src/images/cpluslogo.png" class="img-fluid" />
+        </div>
+        <div class="col-md-2">
+          <img src="src/images/csharplogo.png" class="img-fluid" />
+        </div>
+        <div class="col-md-2">
+          <img src="src/images/springlogo.png" class="img-fluid" />
+        </div>
+        <div class="col-md-2">
+          <img src="src/images/webdevlogo.png" class="img-fluid" />
+        </div>
+        <div class="col-md-2">
+          <img src="src/images/unreallogo.png" class="img-fluid" />
+        </div>
+        <div class="col-md-2">
+          <img src="src/images/unitylogo.png" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2019 - Andres Chavez Portfolio</p>
+    </footer>
+
+    <script src="src/vendors/jquery-3.4.1.min.js"></script>
+    <script src="src/vendors/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
