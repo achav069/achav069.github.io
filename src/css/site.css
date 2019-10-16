@@ -54,7 +54,7 @@ footer {
   background-color: #f9cf00;
 }
 
-#experience div {
+#experience .exp {
   margin-top: 2%;
   margin-left: 4%;
   margin-right: 4%;
@@ -62,7 +62,7 @@ footer {
   border-radius: 15px;
 }
 
-#experience div:hover {
+#experience .exp:hover {
   opacity: 0.8;
 }
 
