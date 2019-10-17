@@ -1,5 +1,5 @@
 body {
-  padding: 51px 0 0 0;
+  padding: 5em 0 0 0;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -73,7 +73,7 @@ footer {
 
 #experience img {
   width: 100%;
-  height: 300px;
+  height: 18rem;
   object-fit: contain;
 }
 
@@ -81,4 +81,38 @@ footer {
   height: 60px;
   width: 100px;
   margin-bottom: 2em;
+}
+
+@media (max-width: 450px) {
+  .navigation li a {
+    font-size: 1em;
+  }
+
+  #aboutText {
+    font-size: 1em;
+    text-align: center;
+  }
+
+  #aboutText #name {
+    font-size: 1.3em;
+  }
+
+  #experience h2 {
+    font-size: 1.5em;
+  }
+
+  #experience img {
+    width: 100%;
+    height: 9rem;
+  }
+
+  #experience .exp div img {
+    height: 30px;
+    width: 50px;
+    margin-bottom: 1em;
+  }
+
+  .experienceText {
+    font-size: 1em;
+  }
 }
