@@ -14,7 +14,7 @@
     />
   </head>
   <body>
-    <nav class="navbar fixed-top">
+    <nav class="navbar fixed-top mb-xs-5">
       <ul class="nav mr-auto navigation">
         <li class="nav-item">
           <a class="nav-link" href="#about">About</a>
@@ -22,21 +22,18 @@
         <li class="nav-item">
           <a class="nav-link" href="#experience">Experience</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#skills">Skills</a>
-        </li>
       </ul>
     </nav>
-    <div class="container-fluid body-content">
+    <div class="container-fluid">
       <div class="row" id="about">
-        <div class="col-md-4 offset-md-4">
+        <div class="col-xl-4 offset-xl-4 col-md-8 offset-md-2">
           <img
             src="src/images/profilepic.png"
             class="img-fluid rounded-circle"
           />
         </div>
-        <div class="col-md-4 offset-md-4" id="aboutText">
-          <p>Hi! My name is <span id="name">Andres Chavez</span>.</p>
+        <div class="col-xl-4 offset-xl-4 col-md-8 offset-md-2 " id="aboutText">
+          <p class=>Hi! My name is <span id="name">Andres Chavez</span>.</p>
           <p>
             I'm a software developer interested in backend, virtual reality, and
             any complex challenges I can get my hands on.
@@ -44,58 +41,47 @@
         </div>
       </div>
 
-      <div class="row d-inline-block" id="experience">
-        <div class="col-md-12"><h2 class="text-center">Experience</h2></div>
-        <div class="col-3 float-left exp">
+      <div class="row d-md-inline-block" id="experience">
+        <div class="col-xl-12"><h2 class="text-center">Experience</h2></div>
+        <div class="col-xl-3  float-md-left col-md-5 exp ">
           <a data-toggle="collapse" href="#jpmc">
             <img src="src/images/jpmcLogo.png" class="img-fluid" />
           </a>
-          <p class="collapse experienceText" id="jpmc">
-            Over the summer I interned at J.P Morgan &amp; Chase and had the
-            opportunity to modernize a legacy backend application using the
-            Spring Boot Java Framewok.
-          </p>
+          <div class="collapse text-center" id="jpmc">
+            <p class="experienceText">
+              Over the summer I interned at J.P Morgan &amp; Chase and had the
+              opportunity to modernize a legacy backend application using the
+              Spring Boot Java Framewok.
+            </p>
+            <img class="img-fluid" src="src/images/springNameLogo.png" />
+          </div>
         </div>
-        <div class="col-3 float-left exp">
+        <div class="col-xl-3 float-md-left col-md-5 exp">
           <a data-toggle="collapse" href="#farelogix">
             <img src="src/images/farelogixLogo.png" class="img-fluid" />
           </a>
-          <p class="collapse experienceText" id="farelogix">
-            At Farelogix I worked on an airline merchanising engine using C++
-            while working with various airline clients.
-          </p>
+          <div class="collapse text-center" id="farelogix">
+            <p class="experienceText">
+              At Farelogix I worked on an airline merchanising engine using C++
+              while working with various airline clients.
+            </p>
+            <img class="img-fluid" src="src/images/cpluslogo.png" />
+          </div>
         </div>
-        <div class="col-3 float-left exp">
+        <div class="col-xl-3 float-md-left col-md-5 exp">
           <a data-toggle="collapse" href="#sparkdev">
             <img src="src/images/sparkdevLogo.png" class="img-fluid" />
           </a>
-          <p class="collapse experienceText" id="sparkdev">
-            The last two semesters at FIU I have participated in UPE's SparkDev
-            Program allowing me to participate as a lead and member for the
-            video game and virtual reality development teams.
-          </p>
-        </div>
-      </div>
-
-      <div class="row" id="skills">
-        <div class="col-12"><h2 class="text-center">Skills</h2></div>
-        <div class="col-md-2">
-          <img src="src/images/cpluslogo.png" class="img-fluid" />
-        </div>
-        <div class="col-md-2">
-          <img src="src/images/csharplogo.png" class="img-fluid" />
-        </div>
-        <div class="col-md-2">
-          <img src="src/images/springlogo.png" class="img-fluid" />
-        </div>
-        <div class="col-md-2">
-          <img src="src/images/webdevlogo.png" class="img-fluid" />
-        </div>
-        <div class="col-md-2">
-          <img src="src/images/unreallogo.png" class="img-fluid" />
-        </div>
-        <div class="col-md-2">
-          <img src="src/images/unitylogo.png" class="img-fluid" />
+          <div class="collapse text-center" id="sparkdev">
+            <p class="experienceText">
+              The last two semesters at FIU I have participated in UPE's
+              SparkDev Program allowing me to participate as a lead and member
+              for the video game and virtual reality development teams.
+            </p>
+            <img class="img-fluid" src="src/images/csharplogo.png" />
+            <img class="img-fluid" src="src/images/unreallogo.png" />
+            <img class="img-fluid" src="src/images/unitylogo.png" />
+          </div>
         </div>
       </div>
     </div>
